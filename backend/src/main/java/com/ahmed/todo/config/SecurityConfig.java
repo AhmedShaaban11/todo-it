@@ -39,7 +39,7 @@ public class SecurityConfig {
   @Bean
   public CorsConfigurationSource corsConfigurationSource() {
     var config = new CorsConfiguration();
-    config.setAllowedOrigins(List.of("https://localhost:4444", "https://example.com"));
+    config.setAllowedOrigins(List.of("http://localhost:4444"));
     config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE"));
     config.setAllowedHeaders(List.of("content-type", "Authorization", "X-XSRF-TOKEN"));
     config.setAllowCredentials(true);

@@ -37,14 +37,15 @@ Todo-IT is a full-stack Single Page Application (SPA) designed to help users eff
     ```bash
     git clone https://github.com/AhmedShaaban11/todo-it.git
     ```
-2. Fill the missing fields in backend/src/main/resources/application.properties file.
+2. Add the dbms driver maven dependency to backend/pom.xml (if dbms isn't postgres)
+3. Fill the missing fields in backend/src/main/resources/application.properties file.
     ```bash
     spring.datasource.url=
     spring.datasource.username=
     spring.datasource.password=
     spring.datasource.driver-class-name=
     ```
-3. Run the bat file
+4. Run the bat file
     ```bash
     ./run.bat
     ```

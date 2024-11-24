@@ -1,6 +1,6 @@
 import Cookies from "js-cookie"
 
-const HOST = "https://localhost:8888/api/v1"
+const HOST = "http://localhost:8888/api/v1"
 
 export async function fetchCsrfToken() {
   await fetch(`${HOST}/access/csrf`, {
