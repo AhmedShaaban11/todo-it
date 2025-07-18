@@ -2,6 +2,9 @@
 
 Todo-IT is a full-stack Single Page Application (SPA) designed to help users efficiently manage their todo lists and tasks. It provides a seamless user experience with an intuitive interface and robust back-end support.
 
+## Video Link
+Watch the video overview [here](https://drive.google.com/file/d/1NQ9RvoRxwiQ9K9XQG-cNK92EQp51m53z/view?usp=drive_link)
+
 ## Features
 - User registration and login via email with secure authentication.
 - CRUD operations for managing todo lists.
