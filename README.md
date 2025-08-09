@@ -66,7 +66,7 @@ Checkout this video for a quick overview of the application: [Todo-IT Overview](
     export BACKEND_PORT=[your backend port]
     export DB_USERNAME=[your database username]
     export DB_PASSWORD=[your database password]
-    export DB_URL=[jdbc URL for your database. Example: jdbc:postgresql://localhost:5432/todo]
+    export DB_URL=[jdbc URL for your database]
     ```
 
 ## Usage
